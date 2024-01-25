@@ -1,4 +1,4 @@
-FROM alpine:3.17
+FROM alpine:3
 ARG RELEASE_DESC
 COPY . /usr/local/bin/
 RUN apk update && apk add wget jq bash && \
